@@ -550,8 +550,8 @@ img {
   .header-nav {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
-    row-gap: 1rem;
+    gap: 1rem;
+    row-gap: 0.5rem;
   }
 
   .header-nav a {
