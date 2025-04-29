@@ -90,7 +90,7 @@ section footer {
 }
 
 footer {
-  padding-bottom: 15rem;
+  padding-bottom: 5rem;
 }
 
 img {
@@ -384,6 +384,12 @@ img {
 }
 
 @media (max-width: 1280px) {
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+  }
   footer {
     padding-bottom: 5rem;
   }
@@ -507,7 +513,7 @@ img {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   body {
     padding: 0 1rem;
   }
@@ -578,5 +584,11 @@ img {
   .heading-wrapper-small {
     max-width: 100%;
     min-width: none;
+  }
+}
+
+@media (max-width: 371px) {
+  #home {
+    padding-top: 7rem;
   }
 }
